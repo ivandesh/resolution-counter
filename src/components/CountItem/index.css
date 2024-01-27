@@ -1,0 +1,62 @@
+.count {
+    padding: 13px 15px;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 13px;
+}
+
+.count-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.count-info {
+    display: flex;
+    width: 50%;
+    text-align: left;
+    flex-direction: column;
+}
+.count-info-p {
+    margin-left: 8px;
+}
+.count-info-p b {
+    font-size: 16px;
+}
+
+.count-info .name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.count-main {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.count-main-number {
+    min-width: 64px;
+    text-align: center;
+    font-size: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    background: #fff;
+    color: #121212;
+    line-height: 1.2;
+}
+
+.count-main .buttons {
+    display: flex;
+    flex-direction: column;
+}
+.buttons .MuiButtonBase-root {
+    padding: 6px;
+}
+.count-footer {
+    text-align: right;
+}
