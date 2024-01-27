@@ -2,6 +2,11 @@ import React, { useState, useEffect, forwardRef } from 'react';
 import IconButton from '@mui/material/IconButton';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import RemoveCircleOutlineIcon from '@mui/icons-material/RemoveCircleOutline';
+import BookIcon from '@mui/icons-material/AutoStoriesOutlined';
+import MovieIcon from '@mui/icons-material/LiveTvOutlined';
+import HeartIcon from '@mui/icons-material/FavoriteBorderOutlined';
+import SewIcon from '@mui/icons-material/CheckroomOutlined';
+import AnimeIcon from '@mui/icons-material/AutoAwesomeOutlined';
 import './index.css';
 
 const today = new Date().getTime();
@@ -27,6 +32,23 @@ const calculateTimeToNextReset = (timeForOneCount) => {
 
     
     return `${daysLeft} дн ${hoursLeft} год`;
+}
+
+const renderIcon = (id) => {
+    switch(id) {
+        case 1: 
+            return <MovieIcon />
+        case 2: 
+            return <AnimeIcon />
+        case 3: 
+            return <HeartIcon />
+        case 4: 
+            return <SewIcon />
+        case 5: 
+            return <BookIcon />
+        default:
+            return null
+    }
 }
 
 export const CountItem = forwardRef(({ id, name, toDo, setData }, ref) => {
@@ -65,7 +87,7 @@ export const CountItem = forwardRef(({ id, name, toDo, setData }, ref) => {
         <div className='count' ref={ref}>
             <div className='count-container'>
                 <div className='count-info'>
-                    <p className='name'>{name}</p>
+                    <p className='name'><span className='icon'>{renderIcon(id)}</span> <span className='name-value'>{name}</span></p>
                     <p className='count-info-p'>Зробити <b>{toDo}</b> у цьому році</p>
                     <p className='count-info-p'>раз у ~ <b>{timeForOne}</b> днів</p>
                     <p className='count-info-p'>Зроблено <b>{countFromStorage}</b></p>

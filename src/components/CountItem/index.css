@@ -1,5 +1,5 @@
 .count {
-    padding: 13px 15px;
+    padding: 8px 15px;
     width: 100%;
     border-bottom: 2px solid #fff;
     color: rgba(255, 255, 255, 0.85);
@@ -9,7 +9,6 @@
 .count-container {
     display: flex;
     gap: 15px;
-    margin-bottom: 15px;
     justify-content: space-between;
 }
 
@@ -29,6 +28,15 @@
 .count-info .name {
     font-size: 16px;
     font-weight: bold;
+}
+
+.count-info .name-value {
+    display: block;
+    padding-left: 30px;
+}
+
+.count-info .name .icon {
+    position: absolute;
 }
 
 .count-main {
