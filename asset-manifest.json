@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resolution-counter/static/css/main.263fd99c.css",
-    "main.js": "/resolution-counter/static/js/main.5a5164cc.js",
+    "main.css": "/resolution-counter/static/css/main.3adc21b7.css",
+    "main.js": "/resolution-counter/static/js/main.758aa06d.js",
     "static/js/787.3fd692b3.chunk.js": "/resolution-counter/static/js/787.3fd692b3.chunk.js",
     "static/media/roboto-latin-500-normal.woff2": "/resolution-counter/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/resolution-counter/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
@@ -60,12 +60,12 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/resolution-counter/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/resolution-counter/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/resolution-counter/index.html",
-    "main.263fd99c.css.map": "/resolution-counter/static/css/main.263fd99c.css.map",
-    "main.5a5164cc.js.map": "/resolution-counter/static/js/main.5a5164cc.js.map",
+    "main.3adc21b7.css.map": "/resolution-counter/static/css/main.3adc21b7.css.map",
+    "main.758aa06d.js.map": "/resolution-counter/static/js/main.758aa06d.js.map",
     "787.3fd692b3.chunk.js.map": "/resolution-counter/static/js/787.3fd692b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.263fd99c.css",
-    "static/js/main.5a5164cc.js"
+    "static/css/main.3adc21b7.css",
+    "static/js/main.758aa06d.js"
   ]
 }
